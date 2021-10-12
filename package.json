@@ -12,7 +12,13 @@
     "slidev-theme-flayyer": "^1.0.2",
     "@playwright/test": "latest",
     "playwright-chromium": "latest"
+  },
 
+  "devDependencies": {
+    "@slidev/cli": "^0.25.4",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-flayyer": "^1.0.2"
   },
   "name": "anewslide"
 }

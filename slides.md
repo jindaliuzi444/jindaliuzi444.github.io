@@ -67,16 +67,28 @@ $$
 </template>
 
 ---
-layout: center
+
+![](/img/frame.png)
+
+---
+layout: two-cols
 ---
 
 # 读论文
 DRL + MEC offloading + Lyapunov + ...
-1. 使用的DRL算法比较落后
+1. 使用的DRL算法比较落后：REINFORCE、DDPG、A3C、DQN
 2. 算法框架基本一样，都是简单的模拟环境+DRL算法
-3. 优化目标（公平性、效率、安全性、电量）、考虑的环境（多agent、连续、离散、时间分配方式）都有不同
+3. 优化目标（公平性、效率、安全性、电量）、考虑的环境（多agent、连续、离散、时间分配方式）各有不同
 
 先实现基本的框架，根据具体目标进行微调
+
+::right::
+
+![](/img/ddpg.png)
+
+---
+
+![](/img/net.png)
 
 ---
 layout: two-cols
@@ -101,13 +113,14 @@ layout: two-cols
 
 ## DRL算法
 
+大概1000 line
+
   已包含大部分连续动作空间算法：
   - TD3、PPO、SAC、DDPG
 
   拟实现其他离散空间算法：
-  - D3QN
+  - D3QN、D4PG(连续)
 
-1000loc
 ---
 layout: two-cols
 ---
