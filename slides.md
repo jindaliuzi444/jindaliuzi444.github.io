@@ -2,6 +2,7 @@
 class: 'text-center'
 layout: cover
 highlighter: shiki
+download: true
 info: |
   ## 近期工作汇报
 
