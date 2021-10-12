@@ -1,71 +1,32 @@
 ---
 layout: cover
-download: 'https://antfu.me/talks/2021-04-29'
+# download: 'https://antfu.me/talks/2021-04-29'
 highlighter: shiki
 info: |
-  ## Composable Vue
+  ## 近期工作汇报
 
-  Pattens and tips for writing good composable logic in Vue
+  使用深度强化学习算法优化边缘计算任务卸载问题
 
-  [Anthony Fu](https://antfu.me/) at [VueDay 2021](https://2021.vueday.it/)
-
-  - [Recording](https://www.youtube.com/watch?v=IMJjP6edHd0)
-  - [Transcript](https://antfu.me/posts/composable-vue-vueday-2021)
-  - [Source code](https://github.com/antfu/talks/tree/master/2021-04-29)
+  [范也]() at [Oct 11th 2021]()
 ---
 
-# Composable Vue
+# 近期工作汇报
 
-Pattens and tips for writing good composable logic in Vue
+使用深度强化学习算法优化边缘计算任务卸载问题
 
 <div class="uppercase text-sm tracking-widest">
-Anthony Fu
+范也
 </div>
-
-<div class="abs-bl mx-14 my-12 flex">
-  <img src="https://2020.vueday.it/img/themes/vueday/vueday-logo.png" class="h-8">
-  <div class="ml-3 flex flex-col text-left">
-    <div><b>Vue</b>Day</div>
-    <div class="text-sm opacity-50">Apr. 29th, 2021</div>
-  </div>
-</div>
-
 
 ---
-layout: 'intro'
----
-
-# Anthony Fu
-
-<div class="leading-8 opacity-80">
-Vue core team member and Vite team member.<br>
-Creator of VueUse, i18n Ally and Type Challenges.<br>
-A fanatical full-time open sourceror.<br>
-</div>
-
-<div class="my-10 grid grid-cols-[40px,1fr] w-min gap-y-4">
-  <ri-github-line class="opacity-50"/>
-  <div><a href="https://github.com/antfu" target="_blank">antfu</a></div>
-  <ri-twitter-line class="opacity-50"/>
-  <div><a href="https://twitter.com/antfu7" target="_blank">antfu7</a></div>
-  <ri-user-3-line class="opacity-50"/>
-  <div><a href="https://antfu.me" target="_blank">antfu.me</a></div>
-</div>
-
-<img src="https://antfu.me/avatar.png" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
-
-
----
-name: Sponsors
 layout: center
 ---
 
-<img class="h-100 -mt-10" src="https://cdn.jsdelivr.net/gh/antfu/static/sponsors.png" /><br>
-<div class="text-center text-xs opacity-50 -mt-8 hover:opacity-100">
-  <a href="https://github.com/sponsors/antfu" target="_blank">
-    Sponsor me at GitHub
-  </a>
-</div>
+# 摘要
+
+完成一个基本的框架，包含：
+1. 任务卸载的模拟环境
+2. 较先进的DRL算法(T3C、PPO、DDPG、SAC)用于调度 
 
 
 ---
