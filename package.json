@@ -10,7 +10,6 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
     "slidev-theme-flayyer": "^1.0.2",
-    "@playwright/test": "latest",
     "playwright-chromium": "latest"
   },
 

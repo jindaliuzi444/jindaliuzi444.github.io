@@ -1,5 +1,4 @@
 ---
-class: 'text-center'
 layout: cover
 highlighter: shiki
 download: true
@@ -13,11 +12,11 @@ info: |
 
 # 近期工作汇报
 
-#### 使用深度强化学习算法优化边缘计算任务卸载问题
+使用深度强化学习算法优化边缘计算任务卸载问题
 
-
+<div class="uppercase text-sm tracking-widest">
 范也 MG21320002
-
+</div>
 
 ---
 layout: center
@@ -47,17 +46,16 @@ layout: two-cols
 
 ## MEC offloading
 1. 相对于云计算
-2. 工厂
+2. 工厂、AR游戏...
 3. 任务调度：最优化问题
 	1. 传统方式、遗传算法
 	2. 强化学习算法
-
-$$
-\begin{array}{ll}
-\min _{(\mathbf{a})} & 电量 + 速度, \\
-\text { s.t. } & a_{i} \in\{0,1\}, \forall i \in \mathcal{M},
-\end{array}
-$$
+4. $$
+   \begin{array}{ll}
+   \min _{(\mathbf{a})} & 电量 + 速度, \\
+   \text { s.t. } & a_{i} \in\{0,1\}, \forall i \in \mathcal{M},
+   \end{array}
+   $$
 </template>
 
 <template v-slot:right>
@@ -88,6 +86,10 @@ DRL + MEC offloading + Lyapunov + ...
 
 ---
 
+![](/img/methods.png)
+
+---
+
 ![](/img/net.png)
 
 ---
@@ -99,17 +101,29 @@ layout: two-cols
 
 1063 line
 
-考虑了
+已经包含了
 
-1. 电量
+1. 电量消耗
 2. 处理速度
 3. 任务缓冲
 4. 数据传输
-5. 信道
+5. 信道占用
 
+还可以添加：
+
+1. 虚拟机配置
+2. 位置移动
+3. 多server
 
 ::right::
 
+![](/img/battery.png)
+
+---
+
+<div class="grid grid-cols-[250px,5px,600px] gap-x-4">
+
+<div>
 
 ## DRL算法
 
@@ -121,11 +135,27 @@ layout: two-cols
   拟实现其他离散空间算法：
   - D3QN、D4PG(连续)
 
+</div>
+
+<div> </div>
+
+<div>
+
+<br/>
+
+
+![](/img/survey.png)
+
+</div>
+
+</div>
+
 ---
 layout: two-cols
 ---
 
-## 排查
+## 优化目标
+
 将现有论文中的
 - 优化目标
 - 考虑的要素 
@@ -143,7 +173,9 @@ layout: two-cols
 - baseline：
   贪心、穷举、无调度、线性松弛、DQN
 - discrete：
-  D3QN、TD3
+  D3QN、Rainbow
+
+![](/img/tech.png)
 
 ---
 layout: center
