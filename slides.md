@@ -93,15 +93,16 @@ DRL + MEC offloading + Lyapunov + ...
 ![](/img/net.png)
 
 ---
-layout: two-cols
----
-
 
 ## 模拟实现
 
+<div class="grid grid-cols-[180px,180px,500px] gap-x-4">
+
+<div>
+
 1063 line
 
-已经包含了
+已经包含
 
 1. 电量消耗
 2. 处理速度
@@ -109,16 +110,25 @@ layout: two-cols
 4. 数据传输
 5. 信道占用
 
-还可以添加：
+</div>
+
+<div>
+
+可添加：
 
 1. 虚拟机配置
 2. 位置移动
 3. 多server
 
-::right::
+</div>
+
+<div>
 
 ![](/img/battery.png)
 
+</div>
+
+</div>
 ---
 
 <div class="grid grid-cols-[250px,5px,600px] gap-x-4">
