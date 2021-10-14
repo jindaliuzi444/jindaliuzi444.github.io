@@ -1,7 +1,7 @@
 ---
 layout: cover
 highlighter: shiki
-download: true
+download: https://github.com/jindaliuzi444/jindaliuzi444.github.io/blob/master/slides-export.pdf
 info: |
   ## 工作进度报告
 
