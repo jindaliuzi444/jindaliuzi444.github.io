@@ -72,13 +72,13 @@ layout: two-cols
 layout: two-cols
 ---
 
-# 读论文
+# 论文调查
 DRL + MEC offloading + Lyapunov + ...
-1. 使用的DRL算法比较落后：REINFORCE、DDPG、A3C、DQN
+1. 现有论文中使用的DRL算法比较落后：REINFORCE、DDPG、A3C、DQN
 2. 算法框架基本一样，都是简单的模拟环境+DRL算法
 3. 优化目标（公平性、效率、安全性、电量）、考虑的环境（多agent、连续、离散、时间分配方式）各有不同
 
-先实现基本的框架，根据具体目标进行微调
+目前先实现基本的框架，根据具体目标进行微调
 
 ::right::
 
@@ -163,6 +163,8 @@ DRL + MEC offloading + Lyapunov + ...
 ---
 layout: two-cols
 ---
+
+# 后续工作
 
 ## 优化目标
 
