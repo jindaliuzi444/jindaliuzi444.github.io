@@ -163,22 +163,27 @@ DRL + MEC offloading + Lyapunov + ...
 </div>
 
 ---
-layout: two-cols
----
 
 # 后续工作计划
 
-## 寻找较有创新的优化目标
+<div class="grid grid-cols-[400px,440px] gap-x-6">
+
+<div>
+
+## 寻找较新颖的优化目标
 
 将现有论文中的
 - 优化目标
+- 特性（距离变化、连续时间片）
 - 卸载模型
 - 数学理论
 - 环境配置
 
 进行总结，找出比较好的优化目标，对现有算法进行调整
 
-::right::
+</div>
+
+<div>
 
 ## 实验
 
@@ -190,6 +195,10 @@ layout: two-cols
   D3QN、Rainbow。。。
 
 ![](/img/tech.png)
+
+</div>
+
+</div>
 
 ---
 layout: center
