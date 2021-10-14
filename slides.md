@@ -171,7 +171,7 @@ DRL + MEC offloading + Lyapunov + ...
 
 将现有论文中的
 - 优化目标
-- 特性（距离变化、连续时间片）
+- 特性（安全性、泛化性、算法性能）
 - 卸载模型
 - 数学理论
 - 环境配置
@@ -199,14 +199,6 @@ DRL + MEC offloading + Lyapunov + ...
 
 ---
 
-
-<br/>
-<br/>
-
-<div class="grid grid-cols-[450px,450px] gap-x-4"> 
-
-<div>
-
 # 总结
 
 <br/>
@@ -217,19 +209,3 @@ DRL + MEC offloading + Lyapunov + ...
 后续工作：
 1. 选择更新颖的优化目标和环境设置
 2. 调参、基线实验
-
-</div>
-
-<div>
-
-# 问题
-
-<br/>
-<br/>
-
-1. 时间安排
-2. Lyapunov + 高级算法 + 许多数学公式似乎质量不高
-
-</div>
-
-</div>
