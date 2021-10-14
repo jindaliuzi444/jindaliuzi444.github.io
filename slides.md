@@ -52,7 +52,7 @@ layout: two-cols
 	2. 强化学习算法
 4. $$
    \begin{array}{ll}
-   \min _{(\mathbf{a})} & 电量 + 速度, \\
+   \min _{(\mathbf{a})} & Battery + Time, \\
    \text { s.t. } & a_{i} \in\{0,1\}, \forall i \in \mathcal{M},
    \end{array}
    $$
