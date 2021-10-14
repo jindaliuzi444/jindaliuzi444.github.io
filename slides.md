@@ -2,7 +2,7 @@
 layout: cover
 class: text-center
 highlighter: shiki
-download: https://github.com/jindaliuzi444/jindaliuzi444.github.io/blob/master/slides-export.pdf
+download: https://raw.githubusercontent.com/jindaliuzi444/jindaliuzi444.github.io/master/slides-export.pdf
 info: |
   ## 工作进度报告
 
