@@ -1,5 +1,6 @@
 ---
 layout: cover
+class: text-center
 highlighter: shiki
 download: https://github.com/jindaliuzi444/jindaliuzi444.github.io/blob/master/slides-export.pdf
 info: |
@@ -19,17 +20,13 @@ info: |
 </div>
 
 ---
-layout: center
----
 
-# 做了什么
+# 做了什么？
 1. 调查20几篇DRL+任务卸载的论文
 2. 编写完成基本的实验框架，包含
 	1. 边缘计算任务卸载的模拟环境
 	2. 使用较先进的DRL算法：T3C、SAC、PPO进行调度
 
----
-layout: center
 ---
 
 # 工作计划
@@ -170,7 +167,7 @@ DRL + MEC offloading + Lyapunov + ...
 
 <div>
 
-## 寻找较新颖的优化目标
+## 较新颖的优化目标
 
 将现有论文中的
 - 优化目标
@@ -192,7 +189,7 @@ DRL + MEC offloading + Lyapunov + ...
 - baseline：
   贪心、穷举、无调度、线性松弛、DQN
 - discrete：
-  D3QN、Rainbow。。。
+  D3QN、Rainbow、... 
 
 ![](/img/tech.png)
 
@@ -201,13 +198,38 @@ DRL + MEC offloading + Lyapunov + ...
 </div>
 
 ---
-layout: center
----
+
+
+<br/>
+<br/>
+
+<div class="grid grid-cols-[450px,450px] gap-x-4"> 
+
+<div>
 
 # 总结
 
-#### 基本实现实验框架，包含模拟环境和调度算法
+<br/>
+<br/>
+
+- 基本实现实验框架，包含模拟环境和调度算法
 
 后续工作：
 1. 选择更新颖的优化目标和环境设置
 2. 调参、基线实验
+
+</div>
+
+<div>
+
+# 问题
+
+<br/>
+<br/>
+
+1. 时间安排
+2. Lyapunov + 高级算法 + 许多数学公式似乎质量不高
+
+</div>
+
+</div>
