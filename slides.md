@@ -39,6 +39,7 @@ info: |
 ---
 layout: two-cols
 ---
+
 <template v-slot:default>
 
 ## MEC offloading 简介
@@ -46,7 +47,7 @@ layout: two-cols
 2. 工厂、AR游戏...
 3. 任务调度：最优化问题
 	1. 传统方式（凸优化、非凸优化）、遗传算法
-  2. game theory
+    2. game theory
 	3. 深度强化学习算法：速度快、泛化性强
 4. $$
    \begin{array}{ll}
@@ -61,6 +62,7 @@ layout: two-cols
 ![](/img/mec.png)
 
 </template>
+
 
 ---
 
