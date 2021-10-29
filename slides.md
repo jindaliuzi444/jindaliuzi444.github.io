@@ -204,8 +204,10 @@ H. Beyer, “Evolution strategies,” Scholarpedia, vol. 2, no. 8, 2007, Art. no
 
 </div>
 ---
-layout: two-cols
----
+
+<div class="grid grid-cols-[400px,20px,400px] gap-4">
+
+<div>
 
 # 总结
 
@@ -215,13 +217,39 @@ layout: two-cols
 
 3. 在训练中使用一些trick（剪裁梯度、启发式等）提高训练效率和泛化能力
 
+</div>
+
+<div> </div>
+
+<div>
+
 # 计划
 
 1. 实现网络层传输
 
 2. 考虑使用分布式或者迭代的方法优化
 
+</div>
+
+</div>
+
 ---
+
+<!-- <img src="" width="500" /> -->
+
+<!-- <div class="grid grid-cols-[500px,500px] gap-4">
+
+<div>
+
+</div>
+
+<div> </div>
+
+<div>
+
+</div>
+
+</div> -->
 
 <!-- <div class="grid grid-cols-2 gap-4">
 
@@ -234,5 +262,3 @@ layout: two-cols
 </div>
 
 </div> -->
-
----
